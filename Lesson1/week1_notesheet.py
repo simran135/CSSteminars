@@ -115,3 +115,19 @@ else:
 # Reminder: 3=3 is illegal 
 # (you can't assign a value to an int, 
 # you can only assign a value to a variable such as x = 3)
+
+grade = 74
+if (grade < 60):
+    print("F")
+elif (grade < 70):
+    print("D")
+elif (grade < 80):
+    print("C")
+elif (grade < 90):
+    print("B")
+else:
+    print("YOU GOT AN A!!!")
+
+# the code above prints C
+# if you have an elif statement, you can only go into one case
+# before exiting the if-elif-else block

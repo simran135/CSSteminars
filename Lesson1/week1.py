@@ -153,56 +153,6 @@ if (grade < 90):
 if (grade < 100):
     print("YOU GOT AN A!!!")
 
-# ONE LINE IF STATEMENT
-
-age = 15
-print('kid' if age < 18 else 'adult')
-
-# What do these print?
-l = ["1", "9", "10"]
-if l[1] < l[2]:
-   print (l[1], "<", l[2])
-else:
-   print (l[1], ">", l[2])
-
-if True:
-    print("is True true boys?...it seems so")
-
-if False:
-    print("Entered if statement")
-
-# SHORT CIRCUITING
-
-# What would these print?
-print("illegal druggggzzz" if True else 1/0)
-
-# and statement
-def yes():
-    return True
-
-def no():
-    return False
-
-def crash():
-    return 1/0 # crashes!
-
-print(no() and crash()) 
-print(crash() and no()) 
-print(yes() and crash()) 
-
-# or statement
-def yes():
-    return True
-
-def no():
-    return False
-
-def crash():
-    return 1/0 # crashes!
-
-print(yes() or crash()) # Works!
-print(crash() or yes()) # Crashes!
-print(no() or crash())
 
 
 
