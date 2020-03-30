@@ -14,6 +14,8 @@ def void_function():
 def add(x, y):
     return x + y
 
+add(1,3)
+
 ############################
 ###  TYPES & OPERATORS #####
 ############################
@@ -30,6 +32,7 @@ print("----------------")
 print("Some basic types in Python:")
 print(type(2))           # int
 print(type(2.2))         # float
+print(type(2.0))         # what type?
 
 print("The / operator does 'normal' float division:")
 print(" 5/3  =", ( 5/3))
