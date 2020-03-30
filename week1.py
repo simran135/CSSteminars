@@ -8,6 +8,9 @@ def f():
     print("hello how are u today")
     return 5
 
+def void_function():
+  print("this function doesn't return anything")
+
 def add(x, y):
     return x + y
 
