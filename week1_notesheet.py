@@ -1,20 +1,22 @@
 ############################
 ####  FUNCTIONS INTRO ######
 ############################
-print("----------------")
-print("Functions in Python:")
 
+# this function takes in no arguments and returns an int
 def f():
     print("hello how are u today")
     return 5
 
+# this function takes in no arguments and doesn't return anything
 def void_function():
   print("this function doesn't return anything")
 
+# this function takes in 2 arguments and returns their sum
 def add(x, y):
+    print("This function returns the sum of the variables x and y")
     return x + y
 
-add(1,3)
+b = add(1,3) # b = add(1,3) = 1 + 3 = 4
 
 ############################
 ###  TYPES & OPERATORS #####
@@ -28,7 +30,6 @@ add(1,3)
 
 
 # Arithmetic	+, -, , /, //, *, %, - (unary), + (unary)
-print("----------------")
 print("Some basic types in Python:")
 print(type(2))           # int
 print(type(2.2))         # float
@@ -115,3 +116,4 @@ else:
 # Reminder: 3=3 is illegal 
 # (you can't assign a value to an int, 
 # you can only assign a value to a variable such as x = 3)
+
