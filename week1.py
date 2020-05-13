@@ -92,6 +92,15 @@ import math
 print(math.pi)
 print(math.e)
 
+# Variable assignment
+x = 6
+y = 7 + x
+z = (5 == 4)
+z += 1
+z -= 1
+z *= 3
+z /= 3
+
 ############################
 ########## QUIZ ############
 ############################
