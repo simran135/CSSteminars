@@ -8,6 +8,16 @@
 ####  FLOAT COMPARISON #####
 ############################
 
+'''
+ Reminders from lesson 1:
+ Int: an integer which is a number without a decmial point (ex. 1, -1, 3)
+ Float: a member of the reals, has a decimal point (Ex. 2.0, 1.1, -3.409876)
+ x = y : x is assigned the value that y has
+ Boolean variables: True, False
+ x == y : boolean expr, if x and y are the same then this evaluates to True
+    otherwise it evaluates to False
+'''
+
 print(0.1 + 0.1 == 0.2)        # True, but...
 print(0.1 + 0.1 + 0.1 == 0.3)  # False!
 print(0.1 + 0.1 + 0.1)         # prints 0.30000000000000004 (uh oh)
