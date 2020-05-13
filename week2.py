@@ -155,22 +155,31 @@ def printing(y):
 a = printing(1)
 print(a)
 
+# Are these valid functions?
 
-
-# is this a valid function?
 def mystery(i + j, x):
     return i + j + x
 
-# is this a valid function?
 def mystery(smiley, i):
     return smiley + i
 
 mystery(5, 6)
 
-# QUESTION: MIGHT NEED TO BE TAKE OUT
+# Returning multiple values
+
 def multipleValues(a, b, c):
     return a, b, c
 
 a = multipleValues(1,2,3)
 print(a)
 print(a[0])
+
+# Function Composition
+
+# Helper Functions
+
+# Local Variable Scope
+
+# Global Variable scope
+
+# Default arguments
